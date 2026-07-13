@@ -1,0 +1,77 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+.container1{
+    margin:  10px 100px 50px 100px;
+    color: #fff;
+}
+.feancont p{
+    width: 300px;
+
+}
+.containertime{
+     margin:  10px 100px 50px 100px;
+      color: #fff;
+}
+.container{
+     margin:  10px 100px 50px 100px;
+      color: #fff;
+}
+.feanicon{
+    padding: 10px;
+}
+.copyryt{
+    text-align: center;
+    color: #fff;
+}
+.allfotter{
+    background-color:black; 
+}
+.footercopy{
+    margin: 30px;
+}
+.footercopy1{
+    margin: 30px;
+}
+.footericon span{
+    padding: 20px;
+}
+.feanicon ul a{
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    margin:  0 0 0 -20px;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+
+.footer{
+    display: block;
+}
+.footercontact h1{
+    margin: -41px 0 18px 0;
+    padding: 12px;
+    font-size: 31px;
+}
+.container1 {
+    margin: 0px 0px 20px 7px;
+    color: #fff;
+}
+.containertime {
+    margin: 0px 0px 20px 10px;
+    color: #fff;
+}
+
+.container {
+    margin: 0px 0px 20px 10px;
+    color: #fff;
+}
+.allfotter{
+    height: 140vh; 
+     margin: 667px 0 0 0;
+}
+}
+

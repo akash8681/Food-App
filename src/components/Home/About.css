@@ -1,0 +1,44 @@
+.leftimage img{
+    height: 90vh;
+    width: 70vh;
+    margin: 60px 60px;
+}
+.aboutcontent{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightcontent{
+    color: aliceblue;
+    margin: 60px;
+}
+.rightcontent p{
+    width:600px;
+    margin:  50px 0 50px 0;
+    font-size: 20px;
+}
+@media (min-width:320px) and (max-width:480px) {
+h1 {
+    font-size: 44px;
+    margin-left: -57px;
+}
+.aboutcontent{
+    display: block;
+}
+.leftimage img {
+    height: 87vh;
+    width: 67vh;
+    margin: 0 0 -91px 0;
+}
+.rightcontent p {
+    width: 275px;
+    margin: 0px 0 0px -44px;
+    font-size: 20px;
+}
+    h1 {
+        font-size: 31px;
+        margin: 0px 0 23px 0;
+    }
+
+}
